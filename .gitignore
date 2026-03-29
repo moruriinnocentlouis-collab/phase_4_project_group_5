@@ -1,2 +1,42 @@
 *.csv
 *.pkl
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.vscode/
+
+# --- Data & Large Files ---
+*.csv
+*.json
+*.zip
+
+
+# --- Model Artifacts ---
+*.pkl
+*.joblib
+*.save
+
+# --- Python & Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
